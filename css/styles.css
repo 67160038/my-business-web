@@ -218,3 +218,14 @@ textarea {
   border: 1px solid #ddd;
 }
 
+/* ========================
+ LIST STYLING (PSEUDO-CLASS)
+ ======================== */
+ul li:first-child {
+  font-weight: bold;
+}
+
+ul li:last-child {
+  color: var(--primary);
+}
+
