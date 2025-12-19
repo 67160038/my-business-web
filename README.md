@@ -37,7 +37,7 @@ my-business-web
 ## ลิงก์ไปแต่ละหน้า (Page Links)
 
 [หน้าแรก](index.html)  
-![index.html](images/index1.png)
+![index.html](images/index.png)
 
 [เกี่ยวกับ](about.html)  
 ![about.html](images/about1.png)  
