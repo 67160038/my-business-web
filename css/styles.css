@@ -249,3 +249,16 @@ ul li:last-child {
   z-index: 50;
 }
 
+/* ========================
+ RESPONSIVE
+ ======================== */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+
