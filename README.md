@@ -19,13 +19,16 @@ my-business-web
 ├── about.html  
 ├── services.html  
 ├── contact.html  
+├── css/
+│ └── styles.css 
 ├── images/  
 │ └── logo.png  
+│ └── hero-bg.jpg
 │ └── ceo.png  
 │ └── manager.png 
-│ └── contact.png  
-│ └── index1.png 
-│ └── index2.png 
+│ └── contact1.png  
+│ └── contact2.png  
+│ └── index.png 
 │ └── services.png
 │ └── about1.png 
 │ └── about2.png 
@@ -35,7 +38,6 @@ my-business-web
 
 [หน้าแรก](index.html)  
 ![index.html](images/index1.png)
-![index.html](images/index2.png)
 
 [เกี่ยวกับ](about.html)  
 ![about.html](images/about1.png)  
@@ -45,5 +47,6 @@ my-business-web
 ![services.html](images/services.png)
 
 [ติดต่อ](contact.html)  
-![contact.html](images/contact.png)
+![contact.html](images/contact1.png)
+![contact.html](images/contact2.png)
 
