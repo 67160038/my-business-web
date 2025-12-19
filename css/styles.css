@@ -134,3 +134,26 @@ a:hover {
   max-width: 700px;
   margin: 1rem auto;
 }
+
+/* ========================
+ BUTTONS
+ ======================== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a8000d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
