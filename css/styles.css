@@ -229,3 +229,23 @@ ul li:last-child {
   color: var(--primary);
 }
 
+/* ========================
+ FOOTER
+ ======================== */
+#footer {
+  background-color: var(--neutral);
+  padding: 30px 20px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* ========================
+ FIXED ELEMENT
+ ======================== */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+}
+
