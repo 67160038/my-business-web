@@ -84,3 +84,53 @@ a:hover {
 .section {
   padding: 3rem 1.5rem;
 }
+
+/* ========================
+ HEADER & NAVIGATION
+ ======================== */
+#header {
+  background-color: var(--secondary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid var(--primary);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  padding: 15px 20px;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* ========================
+ HERO SECTION
+ ======================== */
+.hero {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 204, 0, 0.9),
+      rgba(255, 204, 0, 0.9)
+    ),
+    url("../images/hero-bg.jpg") center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5vw;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 1rem auto;
+}
