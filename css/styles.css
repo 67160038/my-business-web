@@ -70,3 +70,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* ========================
+ LAYOUT & CONTAINERS
+ ======================== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
