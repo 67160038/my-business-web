@@ -57,3 +57,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/*========================
+  LAYOUT
+=========================*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.section {
+  padding: 3rem 2rem;
+}
