@@ -186,3 +186,19 @@ a:hover {
   flex: 1;
   min-width: 300px;
 }
+
+/* ========================
+ TEAM GRID (CSS GRID)
+ ======================== */
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
