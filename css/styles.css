@@ -157,3 +157,32 @@ a:hover {
   transform: translateY(0);
 }
 
+/* ========================
+ CARDS (SERVICES / PRODUCTS)
+ ======================== */
+.card {
+  padding: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ========================
+ SERVICES LAYOUT (FLEXBOX)
+ ======================== */
+.services {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1;
+  min-width: 300px;
+}
